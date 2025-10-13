@@ -1,0 +1,36 @@
+{
+  "name": "xbox-app-sgdb",
+  "version": "1.0.0",
+  "description": "Small tool to get SGDB cover art for Xbox App",
+  "scripts": {
+    "bundle": "esbuild src/main.ts --bundle --minify --tree-shaking=true --platform=node --outfile=dist/bundle.js",
+    "build": "npm run bundle && node build-sea.mjs",
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Biebel",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "jimp": "^1.6.0",
+    "steamgriddb": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.9",
+    "esbuild": "^0.25.10",
+    "postject": "^1.0.0-alpha.6",
+    "resedit-cli": "^2.1.0",
+    "signtool": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 120,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  }
+}
