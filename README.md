@@ -45,7 +45,7 @@ Inspired by [Xbox-PC-Library-Art](https://github.com/tetraguy/Xbox-PC-Library-Ar
 
 ### Option 1: Download Executable
 
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/xbox-app-sgdb/releases) page.
+1. Go to the [Releases](https://github.com/flobiwankenobi/xbox-app-sgdb/releases) page.
 2. Download the latest `.exe` file.
 3. Run the app and enter your SteamGridDB API key.
 4. Done! Covers will be patched automatically.
